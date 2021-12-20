@@ -40,6 +40,16 @@ module.exports = {
                         { text: 'NextTick', link: '/Vue/NextTick/' },
                         { text: 'Provide-Inject', link: '/Vue/Provide-Inject/' },
                         { text: 'Watch', link: '/Vue/Watch/' },
+                        { text: '$once', link: '/Vue/Once/' },
+                        { text: 'Render', link: '/Vue/Render/' },
+                        { text: 'Vue.observable', link: '/Vue/Vue.observable/' },
+                        { text: 'Options.props', link: '/Vue/Options.props/' }
+                    ]
+                },
+                {
+                    text: 'Typescript',
+                    children: [
+                        { text: 'utils', link: '/Typescript/' },
                     ]
                 },
                 {
