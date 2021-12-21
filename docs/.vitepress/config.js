@@ -44,7 +44,8 @@ module.exports = {
                         { text: '$once', link: '/Vue/Once/' },
                         { text: 'Render', link: '/Vue/Render/' },
                         { text: 'Vue.observable', link: '/Vue/Vue.observable/' },
-                        { text: 'Options.props', link: '/Vue/Options.props/' }
+                        { text: 'Options.props', link: '/Vue/Options.props/' },
+                        { text: 'Jsx', link: '/Vue/Jsx/' },
                     ]
                 },
                 {
