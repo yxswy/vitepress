@@ -1,6 +1,7 @@
 module.exports = {
     theme: '@vuepress/theme-vue',
     // lang: 'en-US',
+    base: '/vitepress-starter/',
     title: "VitePress",
     description: "Hello VitePress",
     head: [
