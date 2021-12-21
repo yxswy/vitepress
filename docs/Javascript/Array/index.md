@@ -20,7 +20,7 @@ danger
 
 ```javascript
 function a() {
-  console.log(122223);
+  console.log(1222223);
 }
 ```
 
