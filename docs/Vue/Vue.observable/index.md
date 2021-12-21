@@ -2,6 +2,8 @@
 
 2.6.0 版本以后才支持，类似于 Vuex
 
+## 使用
+
 ```javascript
 import Vue from "vue";
 const store = Vue.observable({

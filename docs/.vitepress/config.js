@@ -31,6 +31,7 @@ module.exports = {
                     text: 'Javascript',
                     children: [
                         { text: 'Array', link: '/Javascript/Array/' },
+                        { text: '设计模式', link: '/Javascript/DesignPatterns/' },
                     ]
                 },
                 {
