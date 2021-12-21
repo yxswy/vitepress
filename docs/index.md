@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./public/logo.png
+heroImage: /logo.png
 heroText: VitePress
 tagline: VitePress yyds
 actionText: 快速上手 →
