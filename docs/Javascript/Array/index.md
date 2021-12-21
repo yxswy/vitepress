@@ -12,9 +12,7 @@ theme: smartblue
 
 ![An image](/logo.png)
 
-## 介绍 <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
-
-{{ $frontmatter.title }}
+## 介绍
 
 ::: danger
 danger
