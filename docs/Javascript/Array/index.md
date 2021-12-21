@@ -12,7 +12,7 @@ theme: smartblue
 
 ![An image](/logo.png)
 
-## 介绍
+## 介绍 2
 
 ::: danger
 danger
