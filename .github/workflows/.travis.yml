@@ -1,4 +1,4 @@
-name: 'github actions build and deploy gh-pages'
+name: 'github actions build'
 on:
   push:
     branches:
