@@ -46,12 +46,21 @@ module.exports = {
                         { text: 'Vue.observable', link: '/Vue/Vue.observable/' },
                         { text: 'Options.props', link: '/Vue/Options.props/' },
                         { text: 'Jsx', link: '/Vue/Jsx/' },
+                        { text: 'CodeStyle', link: '/Vue/CodeStyle/' },
+                        { text: '一笔带过', link: '/Vue/Nothing/' },
                     ]
                 },
                 {
                     text: 'Typescript',
                     children: [
                         { text: 'utils', link: '/Typescript/' },
+                    ]
+                },
+                {
+                    text: 'Vite',
+                    children: [
+                        { text: '开始', link: '/Vite/Base/' },
+                        { text: '配置', link: '/Vite/Config/' },
                     ]
                 },
                 {
