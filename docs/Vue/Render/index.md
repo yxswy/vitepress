@@ -23,15 +23,40 @@
 ```vue
 <script>
 export default {
+  methods: {
+    renderTableColumn() {
+      return (
+        <el-table-column
+          scopedSlots={{
+            default(props) {
+              if (render)
+                return (
+                  <span class="text-1">{render(props.row, props.$index)}</span>
+                );
+
+              return (
+                <span class="text-">
+                  <text-transform-input
+                    setValue={(value) => {
+                      _that.$set(props.row, privateKey, value);
+                    }}
+                    value={props.row[privateKey]}
+                  />
+                </span>
+              );
+            },
+          }}
+        />
+      );
+    },
+  },
   render() {
     return (
       <div class="common-table-index">
         {this.$slots.default}
-        {this.$slots.top}
         {this.$slots.header}
         <el-table
-          key={this.renderKey}
-          data={listApi ? this.list : data || []}
+          data={data}
           {...{ attrs }}
           on-selection-change={this.handleSelectionChange}
           v-loading={this.loading}
@@ -43,21 +68,6 @@ export default {
           {col.map((item) => this.renderTableColumn(h, item))}
         </el-table>
         {this.$slots.footer}
-        {footer ? (
-          <div class="table-footer">
-            <el-pagination
-              on-size-change={this.handleSizeChange}
-              on-current-change={this.handleCurrentChange}
-              current-page={this.params.pageNo}
-              page-sizes={[10, 20, 50, 100]}
-              page-size={this.params.pageSize}
-              layout="total, prev, pager, next, sizes, jumper"
-              total={this.total}
-            />
-          </div>
-        ) : (
-          ""
-        )}
       </div>
     );
   },

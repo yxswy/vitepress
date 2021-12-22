@@ -33,6 +33,7 @@ module.exports = {
                     children: [
                         { text: 'Array', link: '/Javascript/Array/' },
                         { text: '设计模式', link: '/Javascript/DesignPatterns/' },
+                        { text: 'CodeStyle', link: '/Javascript/CodeStyle/' },
                     ]
                 },
                 {
@@ -65,9 +66,11 @@ module.exports = {
                     ]
                 },
                 {
-                    text: '工具类',
+                    text: '业务',
                     children: [
                         { text: 'utils', link: '/Utils/' },
+                        { text: 'git', link: '/Utils/git/' },
+                        { text: '钉钉', link: '/Utils/dd/' },
                     ]
                 }
             ]
