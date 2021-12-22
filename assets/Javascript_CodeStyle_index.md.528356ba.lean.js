@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a as t}from"./app.a9fa48d4.js";const m='{"title":"Javascript \u4EE3\u7801\u98CE\u683C","description":"","frontmatter":{},"relativePath":"Javascript/CodeStyle/index.md","lastUpdated":1640170533405}',p={},e=t("",3),o=[e];function c(l,r,i,u,k,_){return n(),s("div",null,o)}var f=a(p,[["render",c]]);export{m as __pageData,f as default};
