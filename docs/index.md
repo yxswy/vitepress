@@ -1,16 +1,28 @@
 ---
-home: true
-heroImage: /logo.png
-heroText: VitePress
-tagline: VitePress yyds
-actionText: 快速上手 →
-actionLink: /Vue/Effect/
+layout: home
+
+title: VitePress
+titleTemplate: Vite & Vue Powered Static Site Generator
+
+hero:
+  name: VitePress
+  text: Vite & Vue Powered Static Site Generator
+  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/getting-started
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/vuejs/vitepress
+
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue驱动
-    details: 享受 vite + vue-next 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+  - title: "Vite: The DX that can't be beat"
+    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
+  - title: Designed to be simplicity first
+    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
+  - title: Power of Vue meets Markdown
+    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
+  - title: Fully static yet still dynamic
+    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
 ---
