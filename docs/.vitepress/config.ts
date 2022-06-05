@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'VitePress',
   description: 'Vite & Vue powered static site generator.',
-  base: "/vitepress/",
+  // base: "/vitepress/",
   lastUpdated: true,
   markdown: {
     lineNumbers: true
@@ -73,6 +73,8 @@ function sidebarGuide() {
         { text: '并发限制功能', link: '/markdown/并发限制功能' },
         { text: '剪切板获取文件', link: '/markdown/剪切板获取文件' },
         { text: 'vue3', link: '/markdown/vue3' },
+        { text: 'react', link: '/markdown/react/index' },
+        { text: 'vite', link: '/markdown/vite/index' },
         { text: 'video', link: '/markdown/video' },
         { text: 'redux-4.1.2', link: '/markdown/redux-4.1.2' },
         { text: 'redux-thunk-2.4.1', link: '/markdown/redux-thunk-2.4.1' },
@@ -85,16 +87,21 @@ function sidebarGuide() {
         { text: 'nodejs 生成m3u8然后用html播放', link: '/markdown/nodejs 生成m3u8然后用html播放' },
         { text: 'http服务基础模板', link: '/markdown/http服务基础模板' },
         { text: 'express服务基础模板', link: '/markdown/express服务基础模板' },
-        { text: 'english-word', link: '/markdown/english-word' }
+        { text: '广度优先遍历', link: '/markdown/广度优先遍历/index' },
+        { text: '深度优先遍历', link: '/markdown/深度优先遍历/index' },
+        { text: '钉钉鉴权', link: '/markdown/钉钉鉴权/index' },
+        { text: '移动端兼容', link: '/markdown/移动端兼容/index' },
+        { text: '常用函数', link: '/markdown/常用函数/index' },
+        { text: '设计模式', link: '/markdown/设计模式/index' },
+        { text: 'angular request.service.ts', link: '/markdown/angular request.service.ts' },
       ]
     },
     {
       text: '意想不到的灵光',
       collapsible: true,
       items: [
-        { text: 'angular request.service.ts', link: '/markdown/angular request.service.ts' },
-        { text: '代码优化部分', link: '/markdown/代码优化' },
         { text: '前端进阶', link: '/markdown/前端进阶' },
+        { text: 'english-word', link: '/markdown/english-word' },
         { text: '后续关注的几个地方', link: '/markdown/近些日子比较注意的框架或包' }
       ]
     },
