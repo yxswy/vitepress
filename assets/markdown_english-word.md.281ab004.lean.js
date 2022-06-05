@@ -1,0 +1,1 @@
+import{_ as s,j as n,g as a,G as l}from"./chunks/framework.791f7e63.js";const u='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"markdown/english-word.md","lastUpdated":1654445635000}',e={name:"markdown/english-word.md"},p=l("",1),r=[p];function o(c,i,t,b,A,C){return a(),n("div",null,r)}var y=s(e,[["render",o]]);export{u as __pageData,y as default};
