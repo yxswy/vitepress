@@ -1,4 +1,4 @@
-# Clone 下来的，大家不哟相信 马上改中 VitePress (alpha) 📝💨
+# Clone 下来的，大家不哟相信 马上改中 VitePres2s (alpha) 📝💨
 
 [![Test](https://github.com/vuejs/vitepress/workflows/Test/badge.svg)](https://github.com/vuejs/vitepress/actions)
 [![npm](https://img.shields.io/npm/v/vitepress)](https://www.npmjs.com/package/vitepress)
