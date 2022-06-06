@@ -2,7 +2,7 @@
 
 ## node (express)
 
-一下使用仅能使用于前端自研，如果使用到线上，必崩
+仅供使用 node 测试钉钉鉴权功能
 
 > https://www.cnblogs.com/zhang90030/p/9569515.html 参考地址 可以实现
 

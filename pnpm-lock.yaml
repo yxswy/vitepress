@@ -142,12 +142,6 @@ importers:
   docs:
     specifiers: {}
 
-  examples/minimal:
-    specifiers:
-      vitepress: workspace:*
-    devDependencies:
-      vitepress: link:../..
-
 packages:
 
   /@algolia/autocomplete-core/1.6.3:
