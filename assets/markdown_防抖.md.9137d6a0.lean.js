@@ -1,0 +1,1 @@
+import{_ as s,j as n,g as a,G as l}from"./chunks/framework.33f2fa69.js";const C='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"markdown/\u9632\u6296.md","lastUpdated":1654676030000}',p={name:"markdown/\u9632\u6296.md"},o=l("",1),e=[o];function t(c,r,y,F,i,D){return a(),n("div",null,e)}var b=s(p,[["render",t]]);export{C as __pageData,b as default};

@@ -1,1 +1,0 @@
-import{_ as s,j as n,g as a,G as e}from"./chunks/framework.791f7e63.js";const C='{"title":"Footer","description":"","frontmatter":{},"headers":[],"relativePath":"guide/theme-footer.md","lastUpdated":1654513104000}',l={name:"guide/theme-footer.md"},p=e("",5),o=[p];function t(r,c,i,y,D,F){return a(),n("div",null,o)}var A=s(l,[["render",t]]);export{C as __pageData,A as default};
