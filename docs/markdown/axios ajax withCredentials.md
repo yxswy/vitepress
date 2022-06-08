@@ -1,13 +1,10 @@
----
-title: "axios ajax withCredentials"
-date: "2022-04-03"
----
+# axios
+
+## 关于 withCredentials 的小坑
 
 > https://zhuanlan.zhihu.com/p/65059023
 
 > https://blog.csdn.net/chjj0904/article/details/90268813
-
-### 关于 withCredentials 的小坑
 
 XMLHttpRequest.withCredentials 有什么用?
 
@@ -68,4 +65,16 @@ app.all("*", function (req, res, next) {
     res.send(200); //让options尝试请求快速结束
   else next();
 });
+```
+
+## axios 中如何实现前端同构
+
+```typescript
+if (process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
+  // For node use HTTP adapter
+  adapter = require('./adapters/http')
+} else if (typeof XMLHttpRequest !== 'undefined') {
+  // For browsers use XHR adapter
+  adapter = require('./adapters/xhr')
+}
 ```
